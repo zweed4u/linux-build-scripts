@@ -28,8 +28,8 @@ rootfs=$rootdir/ubuntu-armhf
 cd $rootdir
 
 # Need to do this a better way: Add this to /etc/bash.bashrc or ~/.bashrc
-source /opt/Xilinx/SDK/2017.4/settings64.sh
-export PATH=/opt/Xilinx/SDK/2017.4/gnu/aarch32/lin/gcc-arm-none-eabi/bin:$PATH   
+source /opt/Xilinx/Vivado/2017.4/settings64.sh
+export PATH=/opt/Xilinx/SDK/2017.4/gnu/aarch32/lin/gcc-arm-none-eabi/bin:$PATH
 
 #
 # Grab sources
